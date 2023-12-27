@@ -1,0 +1,85 @@
+body {
+    background-image: url("https://img.freepik.com/premium-vector/water-texture-ocean-sea-seamless-pattern_633081-30.jpg");
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    background: rgba(4, 135, 217, 0.9);
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid #0367A6;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    max-width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#add-btn {
+    background: #2C2891;
+}
+
+#save-btn {
+    background: #1C7947;
+}
+
+#reset-btn {
+    background-color: mediumvioletred;
+}
+
+#save-el {
+    font-weight: bold;
+}
+
+#buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+}
+
+#counter button {
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+}
